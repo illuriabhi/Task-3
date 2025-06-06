@@ -97,8 +97,8 @@ function checkCompletion() {
 
     if (score >= 5) {
         quizContainer.innerHTML = `<h2>🎉 Congrats! You got 5/5! 🎉</h2>`;
-    } else if (currentQuestionIndex === selectedQuiz.length - 1 && score < 3) {
-        quizContainer.innerHTML = `<h2>😢 Score below 3! Try again.</h2>`;
+    } else if (currentQuestionIndex === selectedQuiz.length - 1 && score < 5) {
+        quizContainer.innerHTML = `<h2>😢 Score below 5! Try again.</h2>`;
     }
 }
 
